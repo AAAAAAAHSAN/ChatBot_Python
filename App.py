@@ -13,12 +13,22 @@ trainer.train([
 ])
 trainer.train([
     "hello",
-    "ahsan",
     "hi",
     "thank you"
 ])
+trainer.train([
+    "hello",
+    "How can I help you",
+    "hi",
+])
+trainer.train([
+    "What is your name?",
+    "My name is AHSAN",
+
+])
+
 
 # Get a response to the input text 'I would like to book a flight.'
-response = chatbot.get_response("san")
+response = chatbot.get_response("what is your name")
 
 print(response)
